@@ -1,0 +1,531 @@
+{
+ "version": 1,
+ "settings": {
+  "tripName": "Lisbon with Mum & Dad",
+  "shortName": "Lisbon",
+  "shortNameTouched": true,
+  "destination": "Lisbon, Portugal",
+  "langName": "Portuguese",
+  "speechLang": "pt-PT",
+  "timeZone": "Europe/Lisbon",
+  "emergencyNumber": "112",
+  "myName": "Sam (demo)",
+  "myPhone": "+46 00 000 00 01",
+  "icon": {
+   "text": "✈",
+   "color": "#FCB300"
+  },
+  "phraseTemplates": {
+   "takeMeTo": "Por favor, leve-me a esta morada:",
+   "whereIs": "Onde fica {place}?"
+  },
+  "mapArea": {
+   "bbox": [
+    -9.235,
+    38.685,
+    -9.085,
+    38.785
+   ],
+   "maxzoom": 15,
+   "file": null,
+   "size": 0,
+   "auto": false
+  },
+  "interactiveMap": false,
+  "siteUrl": ""
+ },
+ "sections": {
+  "accommodation": [
+   {
+    "id": "hotel",
+    "title": "Hotel Avenida Palace",
+    "files": [
+     "s-hotel.pdf"
+    ],
+    "details": "Double room with breakfast (07:00–10:30). Reception is open 24 hours.",
+    "date": "+0",
+    "time": "15:00",
+    "endDate": "+4",
+    "endTime": "11:00",
+    "address": "Rua 1º de Dezembro 123\n1200-359 Lisboa",
+    "lat": 38.714763,
+    "lng": -9.141098,
+    "pinSource": "geocode",
+    "phone": "+351 21 000 0001",
+    "ref": "HAP-DEMO-4471",
+    "notes": "Say your surname at reception. The room is paid."
+   }
+  ],
+  "tours": [
+   {
+    "id": "tram",
+    "title": "Tram 28 guided tour",
+    "files": [
+     "s-tram-voucher.pdf"
+    ],
+    "localName": "Praça Martim Moniz",
+    "details": "Two hours on the famous yellow tram with an English-speaking guide.",
+    "date": "+1",
+    "time": "10:00",
+    "endTime": "12:00",
+    "address": "Praça Martim Moniz\n1100-341 Lisboa",
+    "lat": 38.715997,
+    "lng": -9.136346,
+    "pinSource": "geocode",
+    "ref": "T28-DEMO-019",
+    "notes": "Look for the guide with the yellow umbrella next to the tram stop. 5 minutes' walk from the hotel."
+   },
+   {
+    "id": "fado",
+    "title": "Fado dinner and show",
+    "files": [],
+    "localName": "Clube de Fado",
+    "details": "Traditional Portuguese music with dinner.",
+    "date": "+1",
+    "time": "20:00",
+    "address": "Rua de São João da Praça 94\n1100-521 Lisboa",
+    "lat": 38.709639,
+    "lng": -9.131199,
+    "pinSource": "geocode",
+    "phone": "+351 21 000 0002",
+    "ref": "FADO-DEMO-77",
+    "notes": "Take a taxi from the hotel (about 10 minutes)."
+   },
+   {
+    "id": "belemtour",
+    "title": "Belém walking tour",
+    "files": [],
+    "localName": "Padrão dos Descobrimentos",
+    "details": "Monuments of the Age of Discovery. Easy walking, flat.",
+    "date": "+2",
+    "time": "10:00",
+    "endTime": "12:00",
+    "address": "Padrão dos Descobrimentos\nAvenida Brasília, 1400-038 Lisboa",
+    "lat": 38.693605,
+    "lng": -9.205695,
+    "pinSource": "geocode",
+    "ref": "BEL-DEMO-311",
+    "notes": "Tram 15 from Praça da Figueira, or a taxi (about 15 minutes)."
+   }
+  ],
+  "travel": [
+   {
+    "id": "flyout",
+    "title": "Flight to Lisbon · TP 781",
+    "files": [
+     "s-eticket.pdf"
+    ],
+    "details": "Stockholm Arlanda (ARN) → Lisbon (LIS). Arrives 09:50 Lisbon time. Check in 2 hours before.",
+    "date": "+0",
+    "time": "07:05",
+    "tz": "Europe/Stockholm",
+    "address": "Aeroporto Humberto Delgado\nAlameda das Comunidades Portuguesas, 1700-111 Lisboa",
+    "lat": 38.780998,
+    "lng": -9.131861,
+    "pinSource": "geocode",
+    "ref": "DEMO7Q",
+    "notes": "Taxi from the airport to the hotel: about 20 minutes, around 15–20 euros."
+   },
+   {
+    "id": "flyhome",
+    "title": "Flight home · TP 780",
+    "files": [
+     "s-eticket.pdf"
+    ],
+    "details": "Lisbon (LIS) → Stockholm Arlanda (ARN). Arrives 19:55 Stockholm time. Leave the hotel by 11:30.",
+    "date": "+4",
+    "time": "14:20",
+    "address": "Aeroporto Humberto Delgado\nAlameda das Comunidades Portuguesas, 1700-111 Lisboa",
+    "lat": 38.780998,
+    "lng": -9.131861,
+    "pinSource": "geocode",
+    "ref": "DEMO7Q"
+   }
+  ],
+  "restaurants": [
+   {
+    "id": "ramiro",
+    "title": "Cervejaria Ramiro",
+    "files": [],
+    "details": "Famous seafood restaurant. Table booked.",
+    "date": "+0",
+    "time": "19:30",
+    "address": "Avenida Almirante Reis 1\n1150-007 Lisboa",
+    "lat": 38.72136,
+    "lng": -9.135407,
+    "pinSource": "geocode",
+    "phone": "+351 21 000 0003",
+    "ref": "Table for 2 · name: Example"
+   },
+   {
+    "id": "pasteis",
+    "title": "Pastéis de Belém",
+    "files": [],
+    "details": "The original custard tarts. No booking: the queue moves fast.",
+    "date": "+2",
+    "time": "12:30",
+    "address": "Rua de Belém 84-92\n1300-085 Lisboa",
+    "lat": 38.69748,
+    "lng": -9.20332,
+    "pinSource": "geocode"
+   },
+   {
+    "id": "timeout",
+    "title": "Time Out Market",
+    "files": [],
+    "details": "Big food hall with many small kitchens. Easy lunch, lots of seats.",
+    "date": "+3",
+    "time": "13:30",
+    "address": "Avenida 24 de Julho 49\n1200-479 Lisboa",
+    "lat": 38.706994,
+    "lng": -9.145693,
+    "pinSource": "geocode"
+   }
+  ],
+  "sightseeing": [
+   {
+    "id": "castelo",
+    "title": "São Jorge Castle",
+    "files": [],
+    "localName": "Castelo de São Jorge",
+    "details": "Castle with the best view over Lisbon. Steep cobbles: take tram 28 or a taxi up.",
+    "date": "+1",
+    "time": "14:00",
+    "address": "Rua de Santa Cruz do Castelo\n1100-129 Lisboa",
+    "lat": 38.713926,
+    "lng": -9.133483,
+    "pinSource": "geocode",
+    "ref": "Tickets: buy at the gate (senior discount)"
+   },
+   {
+    "id": "luzia",
+    "title": "Santa Luzia viewpoint",
+    "files": [],
+    "localName": "Miradouro de Santa Luzia",
+    "details": "Viewpoint with tiles and benches, on the way down from the castle.",
+    "date": "+1",
+    "time": "16:30",
+    "address": "Largo de Santa Luzia\n1100-487 Lisboa",
+    "lat": 38.711738,
+    "lng": -9.13013,
+    "pinSource": "geocode"
+   },
+   {
+    "id": "jeronimos",
+    "title": "Jerónimos Monastery",
+    "files": [],
+    "localName": "Mosteiro dos Jerónimos",
+    "details": "Beautiful monastery. Closed on Mondays.",
+    "date": "+2",
+    "time": "13:30",
+    "address": "Praça do Império\n1400-206 Lisboa",
+    "lat": 38.697758,
+    "lng": -9.206624,
+    "pinSource": "geocode"
+   },
+   {
+    "id": "torre",
+    "title": "Belém Tower",
+    "files": [],
+    "localName": "Torre de Belém",
+    "details": "Tower by the river. You can just look from outside.",
+    "date": "+2",
+    "time": "15:30",
+    "address": "Avenida Brasília\n1400-038 Lisboa",
+    "lat": 38.691586,
+    "lng": -9.215929,
+    "pinSource": "geocode"
+   },
+   {
+    "id": "oceanario",
+    "title": "Lisbon Oceanarium",
+    "files": [],
+    "localName": "Oceanário de Lisboa",
+    "details": "Large aquarium. Lifts everywhere, many benches.",
+    "date": "+3",
+    "time": "10:30",
+    "address": "Esplanada Dom Carlos I\n1990-005 Lisboa",
+    "lat": 38.76352,
+    "lng": -9.093716,
+    "pinSource": "geocode",
+    "ref": "OCE-DEMO-5512",
+    "notes": "Metro red line to Oriente, or a taxi (about 20 minutes)."
+   }
+  ],
+  "documents": [
+   {
+    "id": "passports",
+    "title": "Passport copies",
+    "files": [
+     "s-passport-mum.jpg",
+     "s-passport-dad.jpg"
+    ],
+    "details": "Copies only: keep the real passports in the hotel safe."
+   },
+   {
+    "id": "insdoc",
+    "title": "Travel insurance certificate",
+    "files": [
+     "s-insurance.pdf"
+    ],
+    "ref": "DEMO-123456"
+   },
+   {
+    "id": "tickets",
+    "title": "Flight e-tickets",
+    "files": [
+     "s-eticket.pdf"
+    ],
+    "ref": "DEMO7Q"
+   }
+  ],
+  "tips": [
+   {
+    "id": "tip-cobbles",
+    "title": "Pavements are slippery",
+    "files": [],
+    "details": "Lisbon's stone pavements (calçada) are steep and slippery, especially when wet. Wear shoes with good grip and use the trams and taxis for hills."
+   },
+   {
+    "id": "tip-transport",
+    "title": "Tram, metro and bus card",
+    "files": [
+     "s-vivaviagem.png"
+    ],
+    "details": "Buy a “Viva Viagem” card at any metro station machine and top it up. One card per person."
+   },
+   {
+    "id": "tip-water",
+    "title": "Water and tipping",
+    "files": [],
+    "details": "Tap water is safe to drink. In restaurants, rounding up or leaving 5–10% is normal."
+   },
+   {
+    "id": "tip-pharmacy",
+    "title": "Pharmacies",
+    "files": [],
+    "details": "A pharmacy is a “Farmácia”, marked with a green cross. Pharmacists give good advice for small health problems."
+   },
+   {
+    "id": "tip-taxi",
+    "title": "Taxis",
+    "files": [],
+    "details": "Taxis are beige or black-and-green. Ask the hotel to call one. Show the driver the address card from “Say it”."
+   }
+  ],
+  "contacts": [
+   {
+    "id": "hospital",
+    "title": "Hospital de São José (emergency department)",
+    "files": [],
+    "role": "hospital",
+    "localName": "Hospital de São José",
+    "details": "Public hospital with a 24-hour emergency department, 10 minutes from the hotel. In an emergency call 112.",
+    "address": "Rua José António Serrano\n1150-199 Lisboa",
+    "lat": 38.718199,
+    "lng": -9.137945,
+    "pinSource": "geocode",
+    "notes": "Bring the passport and the insurance certificate."
+   },
+   {
+    "id": "sns24",
+    "title": "SNS 24 health line (Portugal)",
+    "files": [],
+    "role": "other",
+    "details": "National health advice line, 24 hours. Choose English.",
+    "phone": "808 24 24 24"
+   },
+   {
+    "id": "embassy",
+    "title": "Embassy of Sweden (demo entry)",
+    "files": [],
+    "role": "embassy",
+    "details": "For lost passports and serious problems.",
+    "address": "Rua Miguel Lupi 12\n1249-077 Lisboa",
+    "lat": 38.711835,
+    "lng": -9.155104,
+    "pinSource": "geocode",
+    "notes": "DEMO: check the phone number and opening hours at swedenabroad.se before you travel."
+   },
+   {
+    "id": "insurance",
+    "title": "Demo Travel Insurance AB",
+    "files": [
+     "s-insurance.pdf"
+    ],
+    "role": "insurance",
+    "details": "Call the claims line before you pay for a doctor or hospital, if you can.",
+    "phone": "+46 00 000 00 00",
+    "ref": "DEMO-123456"
+   }
+  ]
+ },
+ "phrases": [
+  {
+   "id": "ph0",
+   "en": "Hello, good morning.",
+   "local": "Olá, bom dia.",
+   "hint": ""
+  },
+  {
+   "id": "ph1",
+   "en": "Thank you.",
+   "local": "Obrigado.",
+   "hint": "A woman says “Obrigada”."
+  },
+  {
+   "id": "ph2",
+   "en": "Please.",
+   "local": "Por favor.",
+   "hint": ""
+  },
+  {
+   "id": "ph3",
+   "en": "Excuse me.",
+   "local": "Com licença.",
+   "hint": ""
+  },
+  {
+   "id": "ph4",
+   "en": "Do you speak English?",
+   "local": "Fala inglês?",
+   "hint": ""
+  },
+  {
+   "id": "ph5",
+   "en": "I don't understand.",
+   "local": "Não compreendo.",
+   "hint": ""
+  },
+  {
+   "id": "ph6",
+   "en": "Where is the toilet?",
+   "local": "Onde fica a casa de banho?",
+   "hint": ""
+  },
+  {
+   "id": "ph7",
+   "en": "The bill, please.",
+   "local": "A conta, por favor.",
+   "hint": ""
+  },
+  {
+   "id": "ph8",
+   "en": "How much does it cost?",
+   "local": "Quanto custa?",
+   "hint": ""
+  },
+  {
+   "id": "ph9",
+   "en": "A table for two, please.",
+   "local": "Uma mesa para dois, por favor.",
+   "hint": ""
+  },
+  {
+   "id": "ph10",
+   "en": "Still water, please.",
+   "local": "Água sem gás, por favor.",
+   "hint": ""
+  },
+  {
+   "id": "ph11",
+   "en": "I need a doctor.",
+   "local": "Preciso de um médico.",
+   "hint": ""
+  },
+  {
+   "id": "ph12",
+   "en": "Please call an ambulance.",
+   "local": "Chame uma ambulância, por favor.",
+   "hint": ""
+  },
+  {
+   "id": "ph13",
+   "en": "Help!",
+   "local": "Socorro!",
+   "hint": ""
+  },
+  {
+   "id": "ph14",
+   "en": "Where is the nearest pharmacy?",
+   "local": "Onde fica a farmácia mais próxima?",
+   "hint": ""
+  },
+  {
+   "id": "ph15",
+   "en": "I am lost.",
+   "local": "Estou perdido.",
+   "hint": "A woman says “Estou perdida”."
+  },
+  {
+   "id": "ph16",
+   "en": "Can you write it down, please?",
+   "local": "Pode escrever, por favor?",
+   "hint": ""
+  },
+  {
+   "id": "ph17",
+   "en": "Can you speak more slowly, please?",
+   "local": "Pode falar mais devagar, por favor?",
+   "hint": ""
+  }
+ ],
+ "files": {
+  "s-eticket.pdf": {
+   "name": "eticket.pdf",
+   "label": "E-tickets (both flights)",
+   "type": "pdf",
+   "size": 2885,
+   "pages": []
+  },
+  "s-hotel.pdf": {
+   "name": "hotel.pdf",
+   "label": "Hotel confirmation",
+   "type": "pdf",
+   "size": 2007,
+   "pages": []
+  },
+  "s-insurance.pdf": {
+   "name": "insurance.pdf",
+   "label": "Insurance certificate",
+   "type": "pdf",
+   "size": 1997,
+   "pages": []
+  },
+  "s-passport-dad.jpg": {
+   "name": "passport-dad.jpg",
+   "label": "Passport · Dad",
+   "type": "image",
+   "size": 102223,
+   "w": 1600,
+   "h": 1050
+  },
+  "s-passport-mum.jpg": {
+   "name": "passport-mum.jpg",
+   "label": "Passport · Mum",
+   "type": "image",
+   "size": 102110,
+   "w": 1600,
+   "h": 1050
+  },
+  "s-tram-voucher.pdf": {
+   "name": "tram-voucher.pdf",
+   "label": "Tour voucher",
+   "type": "pdf",
+   "size": 1978,
+   "pages": []
+  },
+  "s-vivaviagem.png": {
+   "name": "vivaviagem.png",
+   "label": "Viva Viagem card",
+   "type": "image",
+   "size": 32364,
+   "w": 1200,
+   "h": 760
+  }
+ },
+ "maps": {
+  "list": [],
+  "signature": null
+ }
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trip Builder</title>
+<link rel="stylesheet" href="/vendor/maplibre/maplibre-gl.css">
+<link rel="stylesheet" href="builder.css">
+</head>
+<body>
+<header class="topbar">
+  <strong class="brand">🧳 Trip Builder</strong>
+  <select id="project-select" title="Open a project"></select>
+  <button data-cmd="new">New trip</button>
+  <button data-cmd="sample">Load sample trip</button>
+  <label class="btn-like">Open project file…<input type="file" id="import-input" accept=".zip,application/zip" hidden></label>
+  <button data-cmd="download">Save project file</button>
+  <button data-cmd="delete" class="danger-link">Delete trip</button>
+  <span id="save-status" class="save-status"></span>
+</header>
+<div class="layout">
+  <nav class="sidebar" id="sidebar"></nav>
+  <main class="main" id="main"><p class="muted">Loading…</p></main>
+  <aside class="preview">
+    <div class="preview-bar">
+      <span>Live preview</span>
+      <button data-preview="home">Home</button><button data-preview="plan">Plan</button><button data-preview="map">Map</button><button data-preview="say">Say it</button><button data-preview="help">Help</button>
+    </div>
+    <div class="phone"><iframe id="preview" title="Phone preview" src="/app-template/index.html?preview=1"></iframe></div>
+    <p class="muted small">This is exactly what your parents will see. Click around in it.</p>
+  </aside>
+</div>
+<div id="modal" class="modal" hidden></div>
+<div id="toast" class="toast"></div>
+<script src="/vendor/maplibre/maplibre-gl.js"></script>
+<script src="/vendor/pmtiles.js"></script>
+<script src="/vendor/basemaps.js"></script>
+<script src="/app-template/render.js"></script>
+<script src="defaults.js"></script>
+<script src="translate.js"></script>
+<script src="maprender.js"></script>
+<script src="exporter.js"></script>
+<script src="builder.js"></script>
+</body>
+</html>

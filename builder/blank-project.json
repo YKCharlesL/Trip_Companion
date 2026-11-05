@@ -1,0 +1,26 @@
+{
+ "version": 1,
+ "settings": {
+  "tripName": "Our trip",
+  "shortName": "Our trip",
+  "destination": "",
+  "langName": "",
+  "speechLang": "",
+  "timeZone": "",
+  "emergencyNumber": "112",
+  "myName": "",
+  "myPhone": "",
+  "icon": {"text": "✈", "color": "#FCB300"},
+  "phraseTemplates": {"takeMeTo": "", "whereIs": ""},
+  "mapArea": {"bbox": null, "maxzoom": 15, "file": null, "size": 0, "auto": true},
+  "interactiveMap": false,
+  "siteUrl": ""
+ },
+ "sections": {
+  "accommodation": [], "tours": [], "travel": [], "restaurants": [],
+  "sightseeing": [], "documents": [], "tips": [], "contacts": []
+ },
+ "phrases": [],
+ "files": {},
+ "maps": {"list": [], "signature": null}
+}
